@@ -1,0 +1,82 @@
+html{
+  font-family: cursive;
+  font-family: 'Karla'
+}
+body{
+  margin:0;
+  background-color: rgb(20, 44, 51);
+}
+.üst-kutu{
+  background-color: gray;
+  text-align:center;
+  margin:auto;
+  padding:20px;
+  width: 80%;
+  
+  border-radius: 10px;
+}
+.üst-kutu-üst-başlık {
+  color: lightblue
+}
+
+.üst-kutu-alt-başlık {
+  color: yellow
+}
+
+.alt-sol {
+  background-color: rgb(27, 111, 150);
+  width: 40%;
+  top:0%;
+  left: 5%;
+  position: relative;
+  border-radius: 20px;
+  color: white;
+  text-align:center
+}
+.alt-sol p:first-of-type {
+  font-size: 29px;
+}
+.the-button {
+  background-color: rgb(227, 225, 100);
+  color: white;
+  border: 0;
+  width: 30%;
+  height: 13%;
+  margin: auto;
+  display: block;
+  border-radius: 7px;
+}
+.the-button:hover {
+  width: 70%;
+  color:black;
+  background-color:green;
+  height:15%;
+  transition: width 1s, color 1s,background-color 1s,height 1s;
+  transition-property: background-color, height, color,width;
+  transition-delay: 0.5s;
+  transition-timing-function: ease-in;
+  
+}
+
+.alt-sağ {
+  background-color: rgb(40, 172, 209);
+  height: 198px;
+  text-align:center;
+  width: 40%;
+  position: relative;
+  top: 0%; 
+  left: 5%;
+  border-radius: 20px;
+}
+.alt {
+  display:flex;
+  margin-left:2.7%;
+  width:105%;
+}
+.alt-sağ:hover, .alt-sol:hover {
+  background-color: black;
+  color: red
+}
+.üst-kutu:hover {
+  background-color:red;
+}
